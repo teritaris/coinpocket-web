@@ -1,113 +1,67 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <div className="max-w-4xl mx-auto p-5">
+      <h1 className="text-3xl font-bold text-center mb-4">プライバシーポリシー</h1>
+      <p className="mb-2">本プライバシーポリシー（以下、本ポリシー）は、CoinPocket（以下、本アプリ）の提供する機能を利用する利用者（以下、ユーザー）の個人情報（個人情報の保護に関する法律により定義される意味を持つものとし、（i）他の情報と容易に照合することができ、それにより特定の個人を識別することができることとなるもの、及び（ii）個人識別符号が含まれるものを含みます。）をどのように取得、利用、開示、移転および保存するかを規定するものです。</p>
+      <h2 className="text-xl font-semibold mt-5 mb-3">第１条　プライバシー情報</h2>
+      <p className="mb-2">（１）プライバシー情報のうち「個人情報」とは、個人情報保護法でいう「個人情報」を指すものとし、生存する個人に関する情報であって、当該情報に含まれる氏名、生年月日、住所、電話番号、メールアドレス、連絡先その他記述等により特定の個人を識別できる情報を指します。</p>
+      <p className="mb-2">（２）プライバシー情報のうち「履歴情報および特性情報」とは、上記に定める「個人情報」以外のものをいい、ご利用いただいたサービスやご購入いただいた商品、ご覧になったページや広告の履歴、ユーザーが検索された検索キーワード、ご利用日時、ご利用方法、ご利用環境、性別、年齢、ユーザーのIPアドレス、クッキー情報、位置情報、端末の個体識別情報などを指します。</p>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+      <h2 className="text-xl font-semibold mt-5 mb-3">第２条　プライバシー情報の収集方法</h2>
+      <p className="mb-2">（１）本サービスは、ユーザーが利用する際にメールアドレスや電話番号などの個人情報をお伺いすることがあります。また、本サービスとユーザーとの間で取り交わされたユーザーの個人情報に関する情報を本サービスの提携先（情報提供元、広告主、広告配信先などを含みます（以下、提携先））などから収集することがあります。</p>
+      <p className="mb-2">（２）本サービスは、ユーザーについて、利用したサービスや購入した商品、閲覧したページや広告の履歴、検索した検索キーワード、利用日時、利用方法、利用環境（携帯端末を通じてご利用の場合の当該端末の通信状態、利用に関しての各種設定情報なども含みます）、IPアドレス、クッキー情報、端末の識別情報などの履歴情報および特性情報を、ユーザーが本サービスや提携先のサービスを利用、またはページを閲覧する際に収集することがあります。</p>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+      <h2 className="text-xl font-semibold mt-5 mb-3">第３条　個人情報を収集・利用する目的</h2>
+      <p className="mb-2">本サービスが個人情報を収集・利用する目的は以下のとおりです。</p>
+      <p className="mb-2">（１）ユーザーに登録情報の閲覧や修正、利用状況の確認を行なっていただくために、メールアドレスなどの登録情報、利用されたサービスや商品およびそれらの代金に関する情報を表示する目的。</p>
+      <p className="mb-2">（２）ユーザーにお知らせや連絡をするためにメールアドレスを利用する目的</p>
+      <p className="mb-2">（３）ユーザーに代金を請求するために、購入された商品名や数量、利用されたサービスの種類や期間、回数、請求金額などの支払いに関する情報などを利用する目的</p>
+      <p className="mb-2">（４）ユーザーが簡便にデータを入力できるようにするために、本サービスに登録されている情報を入力画面に表示させたり、ユーザーのご指示に基づいて他のサービス（提携先が提供するものを含む）などに転送したりする目的</p>
+      <p className="mb-2">（５）代金の支払いを遅滞したり第三者に損害を発生させたりするなど、本サービスの利用規約に違反したユーザーや、不正・不当な目的でサービスを利用しようとするユーザーの情報をお断りするために、メールアドレスなどの連絡先を特定するための情報を利用する目的</p>
+      <p className="mb-2">（６）ユーザーからのお問い合わせに対応するために、お問い合わせ内容や代金の請求に関する情報など本サービスがユーザーに対してサービスを提供するにあたって必要となる情報や、ユーザーのサービス利用状況、連絡先情報などを利用する目的</p>
+      <p className="mb-2">（７）上記の利用目的に付随する目的</p>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+      <p className="mb-2">第４条　個人情報の第三者提供</p>
+      <p className="mb-2">本サービスは次に掲げる場合を除いて、あらかじめユーザーの同意を得ることなく、第三者に個人情報を提供することはありません。ただし、個人情報保護法その他の法令で認められる場合を除きます。</p>
+      <p className="mb-2">（１）法令に基づく場合</p>
+      <p className="mb-2">（２）人の生命、身体または財産の保護のために必要がある場合であって、本人の同意を得ることが困難である場合</p>
+      <p className="mb-2">（３）公衆衛生の向上または児童の健全な育成の推進のために特に必要がある場合であって、本人の同意を得ることが困難である場合</p>
+      <p className="mb-2">（４）国の機関もしくは地方公共団体またはその委託を受けた者が法令の定める事務を遂行することに対して協力する必要がある場合であって、本人の同意を得ることにより当該事務の遂行に支障を及ぼすおそれがある場合</p>
+      <p className="mb-2">（５）あらかじめ次の事項を告知あるいは公表している場合</p>
+      <p className="mb-2">　　（i）利用目的に第三者への提供を含むこと</p>
+      <p className="mb-2">　　（ii）第三者に提供されるデータの項目</p>
+      <p className="mb-2">　　（iv）本人の求めに応じて個人情報の第三者への提供を停止する場合</p>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
+      <p className="mb-2">前項の定めにかかわらず、次に掲げる場合は第三者には該当しないものとします。</p>
+      <p className="mb-2">（１）本サービスが利用目的の達成に必要な範囲内において個人情報の取り扱いの全部または一部を委託する場合</p>
+      <p className="mb-2">（２）合併その他の事由による事業の継承に伴って個人情報が提供される場合</p>
+      <p className="mb-2">（３）個人情報を特定の者との間で共同して利用する場合であって、その旨並びに共同して利用される個人情報の項目、共同して利用する者の範囲、利用する者の利用目的および当該個人情報の管理について責任を有する者の氏名または名称について、あらかじめ本人に通知、または本人が容易に知り得る状態においている場合</p>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+      <h2 className="text-xl font-semibold mt-5 mb-3">第５条　個人情報の開示</h2>
+      <p className="mb-2">本サービスは、本人から個人情報の開示を求められたときは、本人に対し、遅滞なくこれを開示します。ただし、開示することにより次のいずれかに該当する場合は、その全部または一部を開示しないこともあり、開示しないことを決定した場合には、その旨を遅滞なく通知します。</p>
+      <p className="mb-2">（１）本人または第三者の生命、身体、財産その他の権利利益を害するおそれがある場合</p>
+      <p className="mb-2">（２）本サービスの業務の適正な実施に著しい支障をおよぼすおそれがある場合</p>
+      <p className="mb-2">（３）その他法令に違反することとなる場合</p>
+      <p className="mb-2">前項の定めにかかわらず、履歴情報および特性情報など個人情報以外の情報については、原則として開示いたしません。</p>
+
+
+      <h2 className="text-xl font-semibold mt-5 mb-3">第６条　個人情報の訂正および削除</h2>
+      <p className="mb-2">ユーザーは本サービスの保有する自己の個人情報が誤った情報である場合には、本サービスが定める手続きにより、本サービスに対して個人情報の訂正または削除を請求することができます。</p>
+      <p className="mb-2">本サービスは、ユーザーから前項の請求を受けてその請求に応じる必要があると判断した場合には、遅滞なく、当該個人情報の訂正または削除を行い、これをユーザーに通知します。</p>
+
+      <h2 className="text-xl font-semibold mt-5 mb-3">第７条　個人情報の利用停止等</h2>
+      <p className="mb-2">本サービスは、本人から個人情報が利用目的の範囲を超えて取り扱われているという理由、または不正の手段により取得されたものであるという理由により、その利用の停止または消去（以下、利用停止等）を求められた場合には、必要な調査を行い、その結果に基づき、個人情報の利用停止等を行い、その旨本人に通知します。</p>
+      <p className="mb-2">ただし、個人情報の利用停止等に多額の費用を有する場合や、その他利用停止等を行うことが困難な場合であって本人の権利利益を保護するために必要なこれに代わる措置をとれる場合は、この代替策を講じます。</p>
+
+      <h2 className="text-xl font-semibold mt-5 mb-3">第８条　プライバシーポリシーの変更</h2>
+      <p className="mb-2">（１）本ポリシーの内容はユーザーに通知することなく、変更することができるものとします。</p>
+      <p className="mb-2">（２）本サービスが別途定める場合を除いて、変更後のプライバシーポリシーは、本アプリに掲載したときから効力を生じるものとします。</p>
+      <p className="mb-2">（３）本サービスが収集する情報、その利用方法など本ポリシーに重大な変更を加える場合は、その状況についてユーザーが認識できるよう、更新されたことを通知します。</p>
+
+      <h2 className="text-xl font-semibold mt-5 mb-3">第９条　お問い合わせ窓口</h2>
+      <p className="mb-2">本ポリシーに関するお問い合わせは下記の窓口までお願い致します。</p>
+      <p className="mb-2">CoinPocketお問い合わせメールアドレス：teriteri.dev@gmail.com</p>
+
+    </div>
   );
 }
